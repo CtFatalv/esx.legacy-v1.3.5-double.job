@@ -346,7 +346,7 @@ INSERT INTO `jobs` (`name`, `label`, `whitelisted`) VALUES
 ('slaughterer', 'Abatteur', 0),
 ('tailor', 'Couturier', 0),
 ('taxi', 'Taxi', 1),
-('unemployed', 'Chômeur' 0,
+('unemployed', 'Chômeur', 0),
 ('unemployed2', 'Chômeur', 1);
 
 -- --------------------------------------------------------
