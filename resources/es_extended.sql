@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `gtavrpclean`
+-- Base de données : `serverhost`
 --
 
 -- --------------------------------------------------------
@@ -332,22 +332,22 @@ CREATE TABLE `jobs` (
 --
 
 INSERT INTO `jobs` (`name`, `label`, `whitelisted`) VALUES
-('ambulance', 'Ambulance', 0),
-('banker', 'Banquier', 0),
-('cardealer', 'Concessionnaire', 0),
+('ambulance', 'Ambulance', 1),
+('banker', 'Banquier', 1),
+('cardealer', 'Concessionnaire', 1),
 ('fisherman', 'Pêcheur', 0),
 ('fueler', 'Raffineur', 0),
 ('lumberjack', 'Bûcheron', 0),
-('mechanic', 'Mécano', 0),
+('mechanic', 'Mécano', 1),
 ('miner', 'Mineur', 0),
-('police', 'LSPD', 0),
-('realestateagent', 'Agent immobilier', 0),
-('reporter', 'Journaliste', 0),
+('police', 'LSPD', 1),
+('realestateagent', 'Agent immobilier', 1),
+('reporter', 'Journaliste', 1),
 ('slaughterer', 'Abatteur', 0),
 ('tailor', 'Couturier', 0),
-('taxi', 'Taxi', 0),
-('unemployed', 'Unemployed', 0),
-('unemployed2', 'Unemployed2', 0);
+('taxi', 'Taxi', 1),
+('unemployed', 'Chômeur' 0,
+('unemployed2', 'Chômeur', 1);
 
 -- --------------------------------------------------------
 
